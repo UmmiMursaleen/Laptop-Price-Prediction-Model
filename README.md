@@ -16,7 +16,7 @@ The primary goal of this project is to build a regression-based model that accur
 Dataset Details:
 The dataset contains information about various laptop models, including:
 
-Feature	Description
+Feature	Description: 
 Brand	Laptop manufacturer (Apple, HP, Dell, etc.)
 Type	Category of the laptop (Ultrabook, Gaming, Notebook, etc.)
 RAM	Amount of RAM (in GB)
@@ -32,7 +32,7 @@ GPU Brand	GPU manufacturer (NVIDIA, AMD, Intel)
 Operating System	OS type (Windows, macOS, Linux)
 Price (Target Variable)	Laptop price in USD.
 
-🛠 Technologies & Tools Used
+🛠 Technologies & Tools Used: 
 🔹 Python – Main programming language
 🔹 Pandas & NumPy – Data preprocessing & analysis
 🔹 Scikit-learn – Machine Learning model training
@@ -40,7 +40,7 @@ Price (Target Variable)	Laptop price in USD.
 🔹 Pickle – Model serialization for deployment
 🔹 Matplotlib & Seaborn – Data visualization
 
-📊 Data Preprocessing & Feature Engineering
+📊 Data Preprocessing & Feature Engineering: 
 Before training the model, the dataset is cleaned and processed:
 ✅ Handling Missing Values – Filling or removing missing data
 ✅ Feature Encoding – Converting categorical features (Brand, OS, GPU, etc.) using Label Encoding & One-Hot Encoding
@@ -48,7 +48,7 @@ Before training the model, the dataset is cleaned and processed:
 ✅ Creating New Features – Pixels Per Inch (PPI) calculated from resolution and screen size
 
  
-🔍 Model Selection & Training
+🔍 Model Selection & Training: 
 Different regression models were tested:
 ✅ Linear Regression
 ✅ Random Forest Regressor
@@ -57,12 +57,12 @@ Different regression models were tested:
 
 After evaluating the models, Linear Regression performed well with a good balance of accuracy and interpretability.
 
-Final Model: Linear Regression with Feature Engineering
+Final Model: Linear Regression with Feature Engineering: 
 📌 Evaluation Metrics:
-✔️ R² Score: 85%
-✔️ Mean Absolute Error (MAE): ~150 USD
+✔️ R² Score: 80%
+✔️ Mean Absolute Error (MAE): 20%
 
-🖥️ Web App Deployment (Streamlit)
+🖥️ Web App Deployment (Streamlit): 
 The trained model is deployed using Streamlit, where users can input laptop features to get a predicted price.
 
 🔹 How It Works:
@@ -71,11 +71,11 @@ The trained model is deployed using Streamlit, where users can input laptop feat
 3️⃣ Click Predict Price
 4️⃣ The model returns the estimated laptop price
 
-🌍 Deployment & Future Improvements
+🌍 Deployment & Future Improvements: 
 The model is deployed as a web app using Streamlit, and future improvements include:
 🔹 Adding more data for better predictions
 🔹 Using Deep Learning for improved accuracy
 🔹 Deploying on Cloud (AWS/GCP/Heroku) for better scalability
 
-📌 Conclusion
+📌 Conclusion: 
 The Laptop Price Prediction Model provides an easy-to-use interface for estimating laptop prices based on their specifications. It helps buyers make informed decisions and provides businesses with pricing insights. 🚀
