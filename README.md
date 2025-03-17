@@ -8,7 +8,7 @@ This project is useful for consumers looking to buy laptops, as well as for busi
 
 🎯 Objective:
 The primary goal of this project is to build a regression-based model that accurately predicts laptop prices based on various hardware and brand attributes. The project also involves:
-✅ Data collection and preprocessing
+✅ Data collection and preprocessing.
 ✅ Feature engineering
 ✅ Model selection and training
 ✅ Deploying the model as a Streamlit web application
